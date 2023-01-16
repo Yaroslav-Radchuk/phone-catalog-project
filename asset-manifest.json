@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/phone-catalog-project/static/css/main.e8ff24c0.css",
+    "main.js": "/phone-catalog-project/static/js/main.c222c8d8.js",
+    "static/media/fa-solid-900.ttf": "/phone-catalog-project/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/Banner1.png": "/phone-catalog-project/static/media/Banner1.834ee039d6f92e5edaf1.png",
+    "static/media/nproduct.png": "/phone-catalog-project/static/media/nproduct.86d3fa731dd6c2b8e037.png",
+    "static/media/fa-brands-400.ttf": "/phone-catalog-project/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/phone-catalog-project/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/Category3.png": "/phone-catalog-project/static/media/Category3.ca41c40df628caa719e1.png",
+    "static/media/fa-brands-400.woff2": "/phone-catalog-project/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/Category2.png": "/phone-catalog-project/static/media/Category2.8925e5a0ce876216fdf8.png",
+    "static/media/Category1.png": "/phone-catalog-project/static/media/Category1.9024f5eef05dd00411b0.png",
+    "static/media/rights_reserved.png": "/phone-catalog-project/static/media/rights_reserved.9cf2432ac83f5989ce3d.png",
+    "static/media/fa-regular-400.ttf": "/phone-catalog-project/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/Banner3.png": "/phone-catalog-project/static/media/Banner3.281461af7ffef4b0be6a.png",
+    "static/media/Banner2.png": "/phone-catalog-project/static/media/Banner2.d154c5b3f1b1a4acb7af.png",
+    "static/media/fa-regular-400.woff2": "/phone-catalog-project/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/phone-catalog-project/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/phone-catalog-project/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "static/media/slick.svg": "/phone-catalog-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/phone-catalog-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/phone-catalog-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/LOGO.svg": "/phone-catalog-project/static/media/LOGO.13ce922e1b9e8d8894f4.svg",
+    "static/media/slick.woff": "/phone-catalog-project/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/VectorRight.svg": "/phone-catalog-project/static/media/VectorRight.7365d53e50cb07ca548dbdd2c9cd8420.svg",
+    "static/media/VectorUP.svg": "/phone-catalog-project/static/media/VectorUP.9c853957f6aff26a56df5975da800855.svg",
+    "static/media/VectorLeft.svg": "/phone-catalog-project/static/media/VectorLeft.081ebe62e01945fa5d9ab282ea190f9a.svg",
+    "index.html": "/phone-catalog-project/index.html",
+    "main.e8ff24c0.css.map": "/phone-catalog-project/static/css/main.e8ff24c0.css.map",
+    "main.c222c8d8.js.map": "/phone-catalog-project/static/js/main.c222c8d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ff24c0.css",
+    "static/js/main.c222c8d8.js"
+  ]
+}
