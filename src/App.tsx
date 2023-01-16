@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { HomePage } from './Pages/HomePage';
+import { PageNotFound } from './Pages/PageNotFound';
+import { ProductsProvider } from './ProductsContext';
+import { Footer } from './components/Footer';
+import { ProductPage } from './Pages/ProductPage';
+import { MainNav } from './components/MainNav';
+import { ProductDetails } from './components/ProductDetails';
+import { CartPage } from './Pages/CartPage';
+import { Favourites } from './Pages/Favourites';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ProductsProvider>
+      <div className="App">
+        <MainNav />
+        <Routes>
+          <Route path="*" element={<PageNotFound />} />
+          <Route path="home" element={<Navigate to="/" replace />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="phones">
+            <Route index element={<ProductPage type="phone" />} />
+            <Route path=":productId" element={<ProductDetails />} />
+          </Route>
+          <Route path="tablets">
+            <Route index element={<ProductPage type="tablet" />} />
+            <Route path=":productId" element={<ProductDetails />} />
+          </Route>
+          <Route path="accessories">
+            <Route index element={<ProductPage type="accessories" />} />
+            <Route path=":productId" element={<ProductDetails />} />
+          </Route>
+          <Route path="favourites" element={<Favourites />} />
+          <Route path="cart" element={<CartPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </ProductsProvider>
   );
-}
-
-export default App;
+};

@@ -1,0 +1,18 @@
+.productCard {
+  border: 1px solid #e2e6e9;
+}
+.productCard__image {
+  height: 208px;
+  width: 208px;
+  transition: transform 0.2s;
+}
+.productCard__image:hover {
+  transform: scale(1.2);
+}
+.productCard__title {
+  height: 42px;
+}
+.productCard__old-price {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}/*# sourceMappingURL=productCard.css.map */
